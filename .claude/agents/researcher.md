@@ -1,6 +1,6 @@
 ---
 name: researcher
-description: Radically brainstorm a raw idea into a concrete, engineering-contract-compliant scheme (with PoC validation path). Will first read recorded dead ends in docs/schemes/ to avoid them. Called by orchestrator in the PLAN phase.
+description: "Radically brainstorm a raw idea into a concrete, engineering-contract-compliant scheme (with PoC validation path). Will first read recorded dead ends in docs/schemes/ to avoid them. Called by orchestrator in the PLAN phase."
 tools: Read, Grep, Glob, Write, Edit, WebSearch, WebFetch, Bash
 model: opus
 color: blue

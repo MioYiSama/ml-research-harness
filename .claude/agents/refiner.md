@@ -1,6 +1,6 @@
 ---
 name: refiner
-description: Produce an improved scheme per reviewer feedback, writing the feedback (including the failed path) into the scheme's Review & lessons / Changelog so lessons persist with the file. Only change method-level ideas, do not touch implementation code or run experiments.
+description: "Produce an improved scheme per reviewer feedback, writing the feedback (including the failed path) into the scheme's Review & lessons / Changelog so lessons persist with the file. Only change method-level ideas, do not touch implementation code or run experiments."
 tools: Read, Grep, Glob, Write, Edit
 model: opus
 color: cyan

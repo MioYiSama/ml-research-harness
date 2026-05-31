@@ -1,6 +1,6 @@
 ---
 name: paper-writer
-description: Write a paper in LaTeX (docs/paper/) or revise per reviewer feedback. Draw motivation/method/specific metric values/lessons directly from the scheme body. Figures are rendered from recorded metrics (no retraining): logic is in <network>/viz.py, run via uv run -m <network> visualize, reading outputs/<network>/csv, writing figures to docs/paper/.
+description: "Write a paper in LaTeX (docs/paper/) or revise per reviewer feedback. Draw motivation/method/specific metric values/lessons directly from the scheme body. Figures are rendered from recorded metrics (no retraining): logic is in <network>/viz.py, run via uv run -m <network> visualize, reading outputs/<network>/csv, writing figures to docs/paper/."
 tools: Read, Grep, Glob, Write, Edit, Bash
 model: opus
 permissionMode: acceptEdits

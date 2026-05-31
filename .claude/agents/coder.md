@@ -1,6 +1,6 @@
 ---
 name: coder
-description: Implement a validated scheme (or fix per comments) as a standalone root-level package: LightningModule + LightningDataModule, all orchestrated in __main__.py (train/eval/visualize subcommands), no train.py/utils.py. Must pass lint, format, type check, and pytest (including fast_dev_run smoke test) to be done.
+description: "Implement a validated scheme (or fix per comments) as a standalone root-level package: LightningModule + LightningDataModule, all orchestrated in __main__.py (train/eval/visualize subcommands), no train.py/utils.py. Must pass lint, format, type check, and pytest (including fast_dev_run smoke test) to be done."
 tools: Read, Grep, Glob, Write, Edit, Bash
 model: sonnet
 permissionMode: acceptEdits

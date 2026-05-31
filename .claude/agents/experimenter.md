@@ -1,6 +1,6 @@
 ---
 name: experimenter
-description: Run a small-scale PoC — short, cheap training (small subset / few steps) to judge whether the idea has a real signal and is worth scaling, not just whether the code runs. When given comments, fix your own experiment setup (harness bug, wrong metric, leaked split) and rerun with the same scheme. Do not change the research idea.
+description: "Run a small-scale PoC — short, cheap training (small subset / few steps) to judge whether the idea has a real signal and is worth scaling, not just whether the code runs. When given comments, fix your own experiment setup (harness bug, wrong metric, leaked split) and rerun with the same scheme. Do not change the research idea."
 tools: Read, Grep, Glob, Write, Edit, Bash
 model: inherit
 permissionMode: acceptEdits

@@ -1,6 +1,6 @@
 ---
 name: runner
-description: Run full train + eval on a network package that has passed Coder's lint/type/test gates. Read network name from scheme, drive uv run -m <network> train then eval; artifacts land in outputs/<network>/, write metrics and paths into Results log, return a score with good/bad semantics.
+description: "Run full train + eval on a network package that has passed Coder's lint/type/test gates. Read network name from scheme, drive uv run -m <network> train then eval; artifacts land in outputs/<network>/, write metrics and paths into Results log, return a score with good/bad semantics."
 tools: Read, Grep, Glob, Write, Edit, Bash
 model: inherit
 permissionMode: acceptEdits
