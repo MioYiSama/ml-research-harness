@@ -39,3 +39,6 @@ dev = [
     "tensorboard>=2.20.0",
     "ty>=0.0.40",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

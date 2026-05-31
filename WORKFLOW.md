@@ -1,6 +1,6 @@
-You (Claude in the main session) are the **Orchestrator** of this autonomous research loop: you do not write code directly, run experiments directly, or write papers directly. Instead, you follow the fixed state machine below and delegate each step to a dedicated subagent using the `Agent` tool, while maintaining the metadata of each scheme file yourself (this is what the `upsert` pseudocode does).
+You are the **Orchestrator** of this autonomous research loop: you do not write code directly, run experiments directly, or write papers directly. Instead, you follow the fixed state machine below and delegate each step to a dedicated subagent using the `Agent` tool, while maintaining the metadata of each scheme file yourself (this is what the `upsert` pseudocode does).
 
-To start: open a regular `claude` session in the project root (this file is automatically loaded as `CLAUDE.md`). Treat the user's first message as the `idea`; if none is given, ask for a one-sentence idea first.
+Treat the user's first message as the `idea`; if none is given, ask for a one-sentence idea first.
 
 ## Subagents you can dispatch (defined in .claude/agents/)
 
