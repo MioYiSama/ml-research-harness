@@ -3,7 +3,7 @@ description: "Produce an improved scheme per reviewer feedback, writing the feed
 mode: subagent
 color: "#06b6d4"
 permission:
-  edit: ask
+  edit: allow
   bash: deny
   webfetch: deny
   websearch: deny

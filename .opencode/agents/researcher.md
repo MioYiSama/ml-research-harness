@@ -3,7 +3,7 @@ description: "Radically brainstorm a raw idea into a concrete, engineering-contr
 mode: subagent
 color: "#3b82f6"
 permission:
-  edit: ask
+  edit: allow
   bash: allow
   webfetch: allow
   websearch: allow
