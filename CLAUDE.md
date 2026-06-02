@@ -1,4 +1,4 @@
-# CLAUDE.md
+# CLAUDE.md / AGENTS.md
 
 ## Project Structure
 
